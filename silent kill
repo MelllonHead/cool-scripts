@@ -1,0 +1,9 @@
+if plr.Character.BodyEffects.Attacking.Value == true then
+  local humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid
+  local AnimationTracks = humanoid:GetPlayingAnimationTracks()
+  --Script
+    for i, track in pairs (AnimationTracks) do
+    track:Stop()
+    print("Ez Kid")
+    end
+end
